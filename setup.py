@@ -1,7 +1,7 @@
 from setuptools import setup
 
-
-APP = ["Stego.py"]
+APP = ["stego.py"]
+NAME = "Stego"
 
 OPTIONS = {
     "iconfile": "images/stego_icon.icns"
@@ -9,6 +9,7 @@ OPTIONS = {
 
 setup(
     app = APP,
+    name = Name,
     options = {"py2app": OPTIONS},
     setup_requires = ["py2app"]
 )
